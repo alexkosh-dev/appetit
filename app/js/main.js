@@ -14,7 +14,7 @@ $(function () {
 
   /* появления кнопки скролл */
   $(window).on("scroll", function () {
-    if ($(this).scrollTop() > $(window).height() * 1) {
+    if ($(this).scrollTop() > $(window).height() * 0.7) {
       $(".btn__scroll-top").css("display", "flex");
     } else {
       $(".btn__scroll-top").css("display", "none");
